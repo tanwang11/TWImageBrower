@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TWImageBrower_Example' do
+  pod 'TWImageBrower', :path => '../'
+
+  target 'TWImageBrower_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
