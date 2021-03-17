@@ -1,0 +1,22 @@
+{
+  "name": "TWImageBrower",
+  "version": "0.0.1",
+  "summary": "TWImageBrower.",
+  "description": "TWImageBrower tool.",
+  "homepage": "https://github.com/tanwang11/TWImageBrower",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanwang11": "aihy@linrunwc.com"
+  },
+  "source": {
+    "git": "https://github.com/tanwang11/TWImageBrower.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "Example/TWImageBrower/Classes/*.{h,m}"
+}

@@ -24,6 +24,14 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AEEAF90E96A164F77C2346D9 /* Pods_TWImageBrower_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C466C189E72AAEDC08773635 /* Pods_TWImageBrower_Example.framework */; };
+		D1805E332601CC2A00C3989A /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D1805E2F2601CC2A00C3989A /* .gitkeep */; };
+		D1805E352601CC2A00C3989A /* TWImageBrower.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D1805E322601CC2A00C3989A /* TWImageBrower.bundle */; };
+		D1805E3C2601CCB200C3989A /* TWImageBrower.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E3B2601CCB200C3989A /* TWImageBrower.m */; };
+		D1805E412601CCD500C3989A /* TWImageBrowerBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E402601CCD500C3989A /* TWImageBrowerBundle.m */; };
+		D1805E462601CCF700C3989A /* TWImageBrowerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E452601CCF700C3989A /* TWImageBrowerCell.m */; };
+		D1805E4B2601CD0D00C3989A /* TWImageBrowerEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E4A2601CD0D00C3989A /* TWImageBrowerEntity.m */; };
+		D1805E502601CD2500C3989A /* TWImageBrowerProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E4F2601CD2500C3989A /* TWImageBrowerProgressView.m */; };
+		D1805E552601CD4000C3989A /* TWShortTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = D1805E542601CD4000C3989A /* TWShortTapGestureRecognizer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		164BECA18DC4C15D34A338BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		164BECA18DC4C15D34A338BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3CECD498DA167629D09010F2 /* Pods-TWImageBrower_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWImageBrower_Example.release.xcconfig"; path = "Target Support Files/Pods-TWImageBrower_Example/Pods-TWImageBrower_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4306AB0F465BB6EA5F5318F5 /* Pods_TWImageBrower_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWImageBrower_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* TWImageBrower_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWImageBrower_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,8 +71,22 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5E49BACD62336AB4750F94F /* Pods-TWImageBrower_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWImageBrower_Tests.release.xcconfig"; path = "Target Support Files/Pods-TWImageBrower_Tests/Pods-TWImageBrower_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C466C189E72AAEDC08773635 /* Pods_TWImageBrower_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWImageBrower_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CC64127816AF2D94E8DE811F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		CEACEC5FC6A54A5D4DF333F2 /* TWImageBrower.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TWImageBrower.podspec; path = ../TWImageBrower.podspec; sourceTree = "<group>"; };
+		CC64127816AF2D94E8DE811F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CEACEC5FC6A54A5D4DF333F2 /* TWImageBrower.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWImageBrower.podspec; path = ../TWImageBrower.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D1805E2F2601CC2A00C3989A /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D1805E322601CC2A00C3989A /* TWImageBrower.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TWImageBrower.bundle; sourceTree = "<group>"; };
+		D1805E3A2601CCB200C3989A /* TWImageBrower.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImageBrower.h; sourceTree = "<group>"; };
+		D1805E3B2601CCB200C3989A /* TWImageBrower.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImageBrower.m; sourceTree = "<group>"; };
+		D1805E3F2601CCD500C3989A /* TWImageBrowerBundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImageBrowerBundle.h; sourceTree = "<group>"; };
+		D1805E402601CCD500C3989A /* TWImageBrowerBundle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImageBrowerBundle.m; sourceTree = "<group>"; };
+		D1805E442601CCF700C3989A /* TWImageBrowerCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImageBrowerCell.h; sourceTree = "<group>"; };
+		D1805E452601CCF700C3989A /* TWImageBrowerCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImageBrowerCell.m; sourceTree = "<group>"; };
+		D1805E492601CD0D00C3989A /* TWImageBrowerEntity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImageBrowerEntity.h; sourceTree = "<group>"; };
+		D1805E4A2601CD0D00C3989A /* TWImageBrowerEntity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImageBrowerEntity.m; sourceTree = "<group>"; };
+		D1805E4E2601CD2500C3989A /* TWImageBrowerProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWImageBrowerProgressView.h; sourceTree = "<group>"; };
+		D1805E4F2601CD2500C3989A /* TWImageBrowerProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWImageBrowerProgressView.m; sourceTree = "<group>"; };
+		D1805E532601CD4000C3989A /* TWShortTapGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWShortTapGestureRecognizer.h; sourceTree = "<group>"; };
+		D1805E542601CD4000C3989A /* TWShortTapGestureRecognizer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWShortTapGestureRecognizer.m; sourceTree = "<group>"; };
 		E4FE2C2C7099324A07828073 /* Pods-TWImageBrower_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWImageBrower_Example.debug.xcconfig"; path = "Target Support Files/Pods-TWImageBrower_Example/Pods-TWImageBrower_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		F9220EC0869D4E6FC2C81321 /* Pods-TWImageBrower_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWImageBrower_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TWImageBrower_Tests/Pods-TWImageBrower_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +125,6 @@
 				F9220EC0869D4E6FC2C81321 /* Pods-TWImageBrower_Tests.debug.xcconfig */,
 				A5E49BACD62336AB4750F94F /* Pods-TWImageBrower_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -144,6 +165,8 @@
 		6003F593195388D20070C39A /* Example for TWImageBrower */ = {
 			isa = PBXGroup;
 			children = (
+				D1805E2E2601CC2A00C3989A /* Assets */,
+				D1805E302601CC2A00C3989A /* Classes */,
 				6003F59C195388D20070C39A /* TWAppDelegate.h */,
 				6003F59D195388D20070C39A /* TWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -195,6 +218,34 @@
 				CC64127816AF2D94E8DE811F /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		D1805E2E2601CC2A00C3989A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D1805E2F2601CC2A00C3989A /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		D1805E302601CC2A00C3989A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1805E322601CC2A00C3989A /* TWImageBrower.bundle */,
+				D1805E3A2601CCB200C3989A /* TWImageBrower.h */,
+				D1805E3B2601CCB200C3989A /* TWImageBrower.m */,
+				D1805E3F2601CCD500C3989A /* TWImageBrowerBundle.h */,
+				D1805E402601CCD500C3989A /* TWImageBrowerBundle.m */,
+				D1805E442601CCF700C3989A /* TWImageBrowerCell.h */,
+				D1805E452601CCF700C3989A /* TWImageBrowerCell.m */,
+				D1805E492601CD0D00C3989A /* TWImageBrowerEntity.h */,
+				D1805E4A2601CD0D00C3989A /* TWImageBrowerEntity.m */,
+				D1805E4E2601CD2500C3989A /* TWImageBrowerProgressView.h */,
+				D1805E4F2601CD2500C3989A /* TWImageBrowerProgressView.m */,
+				D1805E532601CD4000C3989A /* TWShortTapGestureRecognizer.h */,
+				D1805E542601CD4000C3989A /* TWShortTapGestureRecognizer.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +310,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +332,8 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				D1805E332601CC2A00C3989A /* .gitkeep in Resources */,
+				D1805E352601CC2A00C3989A /* TWImageBrower.bundle in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -365,11 +419,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TWImageBrower_Example/Pods-TWImageBrower_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/TWImageBrower/TWImageBrower.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWImageBrower.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -384,6 +440,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
+				D1805E412601CCD500C3989A /* TWImageBrowerBundle.m in Sources */,
+				D1805E3C2601CCB200C3989A /* TWImageBrower.m in Sources */,
+				D1805E462601CCF700C3989A /* TWImageBrowerCell.m in Sources */,
+				D1805E552601CD4000C3989A /* TWShortTapGestureRecognizer.m in Sources */,
+				D1805E4B2601CD0D00C3989A /* TWImageBrowerEntity.m in Sources */,
+				D1805E502601CD2500C3989A /* TWImageBrowerProgressView.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

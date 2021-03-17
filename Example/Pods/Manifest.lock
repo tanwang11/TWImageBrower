@@ -1,0 +1,37 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MBProgressHUD (1.2.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+  - TWImageBrower (0.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MBProgressHUD
+  - SDWebImage
+  - TWImageBrower (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - MBProgressHUD
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  TWImageBrower:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+  TWImageBrower: ad13cd4ebadb133bfbf86140beb9cb79d45ba2b8
+
+PODFILE CHECKSUM: acb8c754f9482bec847a074f5ffffb279a35adc1
+
+COCOAPODS: 1.10.1
