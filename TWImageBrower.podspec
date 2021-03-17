@@ -38,8 +38,8 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  pod 'SDWebImage', '~> 5.10.4'
-  pod 'MBProgressHUD', '~> 1.2.0'
+  s.dependency 'SDWebImage', '~> 5.10.4'
+  s.dependency 'MBProgressHUD', '~> 1.2.0'
   
   s.resource_bundles = {
       'TWImageBrower' => ['Example/TWImageBrower/Classes/*.bundle']
